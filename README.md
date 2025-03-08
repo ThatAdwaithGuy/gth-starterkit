@@ -33,16 +33,14 @@ If your app needs a database,
 - Uncomment code in the main.go file (Instructions are in the file)
 - Only use `make gendb`
 
+Then run the suitable make generate command.
+
 Use `air` to run the app with live reloading
 
 ## Requirement
 - [air](https://github.com/air-verse/air)
 - [sqlc](https://docs.sqlc.dev/en/stable/overview/install.html)
 - [dbmate](https://github.com/amacneil/dbmate)
-
-
-
-Then run the suitable make generate command.
 
 From here, everything is free to the imagination. Have fun using this :).
 
