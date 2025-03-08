@@ -12,9 +12,13 @@ The tech stack is
 
 ## Getting Started 
 To install this starter kit:
+
 `git clone https://github.com/ThatAdwaithGuy/gth-starterkit.git && cd gth-starterkit`
+
 after that run 
+
 `./install.sh *YOUR PROJECT NAME*`
+
 Project name should in the form of "Your username (Github username is preferable)/Your project name"
 like
 "ThatAdwaithGuy/Todos"
@@ -28,6 +32,15 @@ If your app needs a database,
 - By Default, the starterkit uses postgres (Best database in my opinion) but you can change it. Please visit sqlc's website and check out the other options.
 - Uncomment code in the main.go file (Instructions are in the file)
 - Only use `make gendb`
+
+Use `air` to run the app with live reloading
+
+## Requirement
+- [air](https://github.com/air-verse/air)
+- [sqlc](https://docs.sqlc.dev/en/stable/overview/install.html)
+- [dbmate](https://github.com/amacneil/dbmate)
+
+
 
 Then run the suitable make generate command.
 
