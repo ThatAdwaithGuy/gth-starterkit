@@ -17,7 +17,7 @@ To install this starter kit:
 
 after that run 
 
-'chmod +x install.sh && chmod +x deletedb.sh'
+'chmod +x install.sh deletedb.sh'
 
 To give permission to the shell files to run.
 
