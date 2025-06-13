@@ -17,6 +17,12 @@ To install this starter kit:
 
 after that run 
 
+'chmod +x install.sh && chmod +x deletedb.sh'
+
+To give permission to the shell files to run.
+
+To install and configure the project, run 
+
 `./install.sh *YOUR GITHUB USERNAME*/*YOUR PROJECT NAME*`
 
 Your project name is used as the go's module name, That's why your github username is needed for publishing. I am kinda new to go so please help me in this matter.
