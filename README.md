@@ -17,21 +17,22 @@ To install this starter kit:
 
 after that run 
 
-`./install.sh *YOUR PROJECT NAME*`
+`./install.sh *YOUR GITHUB USERNAME*/*YOUR PROJECT NAME*`
 
-Project name should in the form of "Your username (Github username is preferable)/Your project name"
-like
-"ThatAdwaithGuy/Todos"
+Your project name is used as the go's module name, That's why your github username is needed for publishing. I am kinda new to go so please help me in this matter.
+
+Then rename "gth-starterkit" to your projects name.
 
 If your project doesn't need a database, 
 - Run `./deletedb.sh`
-- Only use `make generate`
+- Use `make generate`
 
 If your app needs a database, 
 - Make a .env file and create DATABASE_URL variable and connect it with your database(REQUIRED).
 - By Default, the starterkit uses postgres (Best database in my opinion) but you can change it. Please visit sqlc's website and check out the other options.
 - Uncomment code in the main.go file (Instructions are in the file)
-- Only use `make gendb`
+-  Use `make build`
+
 
 Then run the suitable make generate command.
 

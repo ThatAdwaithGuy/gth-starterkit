@@ -6,7 +6,7 @@ generate:
 	npm run build 
 	templ generate 
 
-gendb:
+build:
 	make db 
 	make generate
 
